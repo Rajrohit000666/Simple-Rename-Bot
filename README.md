@@ -11,7 +11,7 @@
 
 ### Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MrMKN/Simple-Rename-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rajrohit000666/Simple-Rename-Bot)
 
 ### Railway
 
@@ -28,6 +28,6 @@ view - view current thumbnail
 
 ## Support
 
-● [BOT UPDATES](https://t.me/mkn_bots_updates)
+● [BOT UPDATES](https://t.me/movie4ubotschannel)
 
-● [SUPPORT GROUP](https://t.me/mkn_botz_discussion_group)
+● [SUPPORT GROUP](https://t.me/movie4ubotschannel)
