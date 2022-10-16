@@ -3,7 +3,7 @@ import math
 import os
 import time
 
-PROGRESS_BAR = "\n\n📁 : {b} | {c}\n🚀 : {a}%\n⚡ : {d}/s\n⏱️ : {f}"
+PROGRESS_BAR = "\n\n📁 : {b} | {c}\n🚀 : {a}%\n💫 : {d}/s\n⏱️ : {f}"
 
 async def progress_message(current, total, ud_type, message, start):
     now = time.time()
@@ -11,8 +11,8 @@ async def progress_message(current, total, ud_type, message, start):
     if round(diff % 10.00) == 0 or current == total:
         percentage = current * 100 / total
         speed = current / diff
-        elapsed_time = round(diff) * 1000
-        time_to_completion = round((total - current) / speed) * 1000
+        elapsed_time = round(diff) * 10000
+        time_to_completion = round((total - current) / speed) * 10000
         estimated_total_time = elapsed_time + time_to_completion
         elapsed_time = TimeFormatter(milliseconds=elapsed_time)
         estimated_total_time = TimeFormatter(milliseconds=estimated_total_time)                                    
