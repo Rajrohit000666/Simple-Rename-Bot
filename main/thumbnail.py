@@ -17,7 +17,7 @@ async def set_tumb(bot, msg):
 
 @Client.on_message(filters.private & filters.command("view") & filters.user(ADMIN))                            
 async def del_tumb(bot, msg):
-    if temp.THUMBNAIL:
+    if temp.THUMBNAIL:AgACAgUAAxkDAAMRY02geBxvffyz4hM9_IbopbRqac0AAsOxMRvoGiBWMPSDzt0l_2QACAEAAwIAA3kABx4E
         await msg.reply_photo(photo=temp.THUMBNAIL, caption="this is your current thumbnail")
     else:
         await msg.reply_text(text="you don't have any thumbnail")
